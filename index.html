@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images.png" type="image/x-icon">
+<meta name="keywords" content="Piedra-Papel o Tijera. Quien ganará?? Vos o La Computadora">
+<meta name="description" content="Juego-Popular-de-Piedra-Papel o Tijera">
+<meta name="author" content="JuegaRoz">
+<meta name="copyright" content="JuegaRoz-2024">
+<meta property="og:title"content="Juego-Popular">
+<meta property="og:description"content="tazas de gatos, personalizado y/o retrato de personajes.Local en el Barrio Almagro.">
+<meta property="og:url"content="">
+<meta property="og:locale"content="">
+<meta property="or:article:author"content="">  
+
+<title>Piedra, Papel o tijera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1> Piedra, Papel o Tijera </h1>
+        <p>¿ Quien Ganara 🤔 ?</p>
+    </header>
+    <main>
+        <p class="instrucciones" id="instrucciones">
+            El primero en llegar a 5️⃣ puntos gana.
+        </p>
+        <div class="marcador">
+            <p class="nombre nombre-jugador">VOS</p>
+            <p class="nombre nombre-computadora">COMPUTADORA</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
+            </p>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma">
+            <h2>..Elegí tu arma para el próximo turno..</h2>
+            <div class="armas">
+                <button class="arma" id="piedra👊🏾">👊🏾</button>
+                <button class="arma" id="papel📄">📄</button>
+                <button class="arma" id="tijera✂️">✂️</button>
+            </div>
+        </div>
+        <div class="mensaje disabled" id="mensaje">
+            <p>
+                USASTE: <span class="eleccion" id="eleccion-usuario">PAPEL 📄</span><br>
+                Y la COMPUTADORA usó:<span class="eleccion" id="eleccion-computadora">PIEDRA 👊🏾</span>
+            </p>
+            <p id="gana-punto">..¡GANASTE un punto! 🤩..</p>
+        </div>
+        <button class="btn disabled" id="reiniciar">Reiniciar juego</button>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

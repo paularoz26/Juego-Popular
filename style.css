@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-image:url(people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg);
+    font-family:"Madimi One",Arial, Helvetica, sans-serif;
+    font-style:italic;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:red;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:30px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color:rgb(250, 84, 84);
+    color:black;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-style:groove;
+    border-color:rgb(193, 10, 10);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.instrucciones {
+    margin-bottom: 2rem;
+}
+
+.marcador {
+    background-color:rgb(234, 146, 113);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    border-style:double;
+    border-color:black;
+}
+
+.marcador .nombre {
+    position: absolute;
+    color:rgb(8, 8, 8);
+    background-color:rgb(244, 165, 178);
+    line-height: 1;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid pink;
+    border-style: dotted;
+    border-color:red;
+
+}
+
+.marcador .nombre-jugador {
+    right: 85%;
+}
+
+.marcador .nombre-computadora {
+    left: 85%;
+}
+
+.marcador .puntos {
+    font-size: 1.6rem;
+}
+
+.elegi-tu-arma {
+    margin-bottom: 2rem;
+}
+
+.elegi-tu-arma h2 {
+    font-size:1.20rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    box-shadow:3px 3px 3px black;
+    background-color: rgb(243, 212, 217);
+}
+
+.armas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.arma {
+    font-size: 2rem;
+    background-color:rgb(250, 84, 84);
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.mensaje {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.mensaje .eleccion {
+    color:rgb(14, 13, 13);
+    background-color:rgb(245, 147, 163);
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+
+.btn {
+    border: 0;
+    line-height: 1;
+    background-color:rgb(250, 84, 84);
+    color:rgb(250, 84, 84);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.disabled {
+    display: none;
+}
