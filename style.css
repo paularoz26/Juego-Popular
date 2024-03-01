@@ -10,12 +10,11 @@ body {
     background-image:url(people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg);
     font-family:"Madimi One",Arial, Helvetica, sans-serif;
     font-style:italic;
-    background-repeat:no-repeat;
-    background-size:cover;
     color:red;
     text-transform:uppercase;
     font-weight:300;
     font-size:30px;
+    width:100%;
 
 }
 
