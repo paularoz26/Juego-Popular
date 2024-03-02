@@ -105,3 +105,17 @@ function reiniciarJuego() {
 
     instrucciones.innerText = "El primero en llegar a 5 puntos gana 😖 😖😖  ."
 }
+
+Swal.fire({
+    title: "¡Como se juega?",
+    text: "Elije: Piedra, Papel o Tijera",
+    imageUrl:"people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg",
+    imageWidth: 400,
+    imageHeight: 200,
+    position:"center",
+    background: "black",
+timer:"3500",
+    confirmButtonColor:"red",
+    footer:" 👊🏿 📃 A JUGAR SE HA DICHO ✂️"
+  
+  }); 
