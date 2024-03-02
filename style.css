@@ -119,6 +119,9 @@ main {
     margin-bottom: 2rem;
     line-height: 1.8;
     font-family:"Madimi One",Arial, Helvetica, sans-serif;
+    background-color:rgb(232, 218, 220);
+    border-radius:10px;
+    border-style: double;
 }
 
 .mensaje .eleccion {
@@ -128,6 +131,7 @@ main {
     padding-inline: .25rem;
     font-family:"Madimi One",Arial, Helvetica, sans-serif;
 }
+
 
 .btn {
     border: 0;
