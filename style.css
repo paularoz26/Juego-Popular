@@ -87,7 +87,7 @@ main {
 }
 
 .elegi-tu-arma {
-    margin-bottom: 2rem;
+    margin-bottom:10rem;
 }
 
 .elegi-tu-arma h2 {
@@ -102,6 +102,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    font-family:"Madimi One",Arial, Helvetica, sans-serif;
 }
 
 .arma {
@@ -111,11 +112,13 @@ main {
     padding: .5rem;
     border-radius: .5rem;
     cursor: pointer;
+    font-family:"Madimi One",Arial, Helvetica, sans-serif;
 }
 
 .mensaje {
     margin-bottom: 2rem;
     line-height: 1.8;
+    font-family:"Madimi One",Arial, Helvetica, sans-serif;
 }
 
 .mensaje .eleccion {
@@ -123,6 +126,7 @@ main {
     background-color:rgb(245, 147, 163);
     border-radius: .25rem;
     padding-inline: .25rem;
+    font-family:"Madimi One",Arial, Helvetica, sans-serif;
 }
 
 .btn {
